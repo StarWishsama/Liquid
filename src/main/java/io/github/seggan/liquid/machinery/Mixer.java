@@ -218,7 +218,7 @@ public class Mixer extends LContainer implements RecipeDisplayItem {
         for (MachineRecipe recipe : recipes) {
             displayRecipes.add(new CustomItemStack(
                 new ItemStack(Material.LAVA_BUCKET, recipe.getInput().length),
-                "&3Multiple Input Recipe")); // Can't exactly show all 9 items at once
+                "&3有多个合成配方表")); // Can't exactly show all 9 items at once
             displayRecipes.add(recipe.getOutput()[0]); // Main output should be the first item
         }
 

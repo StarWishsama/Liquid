@@ -19,9 +19,9 @@ public final class Items {
     public static final SlimefunItemStack MELTER = new SlimefunItemStack(
         "MELTER",
         Material.BLAST_FURNACE,
-        "&6Melter",
+        "&6熔化机",
         "",
-        "&7A high-temperature furnace",
+        "&7一个高温熔炉",
         LoreBuilder.powerPerSecond(32),
         LoreBuilder.powerBuffer(64)
     );
@@ -29,9 +29,9 @@ public final class Items {
     public static final SlimefunItemStack SOLIDIFIER = new SlimefunItemStack(
         "SOLIDIFIER",
         Material.LIGHT_BLUE_STAINED_GLASS,
-        "&bSolidifier",
+        "&b固化机",
         "",
-        "&7An advanced freezer",
+        "&7高级版的冰箱",
         LoreBuilder.powerPerSecond(8),
         LoreBuilder.powerBuffer(16)
     );
@@ -55,10 +55,10 @@ public final class Items {
     public static final SlimefunItemStack MIXER = new SlimefunItemStack(
         "MIXER",
         Material.BLAST_FURNACE,
-        "&6Mixer",
+        "&6混合机",
         "",
-        "&7This upgraded melter is perfect",
-        "&7for mixing liquids together",
+        "&7这个升级后的熔化机",
+        "&7非常适合用来混合液体",
         LoreBuilder.powerPerSecond(64),
         LoreBuilder.powerBuffer(128)
     );
@@ -66,9 +66,9 @@ public final class Items {
     public static final SlimefunItemStack CENTRIFUGE = new SlimefunItemStack(
         "CENTRIFUGE",
         Material.HAY_BLOCK,
-        "&6Centrifuge",
+        "&6离心分离机",
         "",
-        "&7The centrifuge can separate liquids",
+        "&7离心机可以用来分离液体",
         LoreBuilder.powerPerSecond(32),
         LoreBuilder.powerBuffer(64)
     );
@@ -76,9 +76,9 @@ public final class Items {
     public static final SlimefunItemStack CRYSTALLIZER = new SlimefunItemStack(
         "CRYSTALLIZER",
         Material.DIAMOND_BLOCK,
-        "&bCrystallizer",
+        "&b结晶器",
         "",
-        "&7The crystallizer can solidify crystals",
+        "&7结晶器能够用来固化晶体",
         LoreBuilder.powerPerSecond(8),
         LoreBuilder.powerBuffer(16)
     );
@@ -86,12 +86,12 @@ public final class Items {
     public static final SlimefunItemStack SPRAY_SOLIDIFIER = new SlimefunItemStack(
         "SPRAY_SOLIDIFIER",
         Material.SMITHING_TABLE,
-        "&bSpray Solidifier",
+        "&b喷雾固化机",
         "",
-        "&7This solidifier sprays a liquid out, turning",
-        "&7the liquid into its dust form. As a result,",
-        "&7this machine works faster but consumes more",
-        "&7power than a regular solidifier",
+        "&7这台固化机通过喷出液体",
+        "&7将液体以粉尘形式固化,",
+        "&7因此运行速度更快,",
+        "&7但也比普通的固化机更消耗能量.",
         LoreBuilder.powerPerSecond(64),
         LoreBuilder.powerBuffer(128)
     );
@@ -99,9 +99,8 @@ public final class Items {
     public static final SlimefunItemStack SLAG = new SlimefunItemStack(
         "SLAG",
         Material.CHARCOAL,
-        "&7Slag",
+        "&7熔渣",
         "",
-        "&7One man's trash is another",
-        "&7man's treasure..."
+        "&7垃圾可能是别人眼中的宝藏..."
     );
 }
